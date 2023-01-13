@@ -22,6 +22,9 @@
     <Filter Include="Header Files\Trees\Nodes">
       <UniqueIdentifier>{251e01c4-cf27-426b-b763-02bc6d192bbe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Iterators">
+      <UniqueIdentifier>{6fc1c582-ceea-491c-9af1-4e6ad73b1ad1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -32,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="AdvancedNode.h">
       <Filter>Header Files\Trees\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeIterator.h">
+      <Filter>Header Files\Iterators</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

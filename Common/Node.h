@@ -19,7 +19,7 @@ template<class T>
 class Containers::Common::Trees::Nodes::Node
 {
 public:
-    Node*& Prev;
-    Node*& Next;
-    T*& Value;
+    T Value;
+    Node* Prev{};
+    Node* Next{};
 };
